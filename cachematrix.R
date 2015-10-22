@@ -36,3 +36,12 @@ cacheSolve <- function(x, ...) {
   m
   ## Return a matrix that is the inverse of 'x'
 }
+
+#This is an example on how to call my functions:
+#
+#mtx1 <- matrix(c(2,5,3,4),2,2,byrow=TRUE)
+#mtx1
+#mtxInv<- cacheSolve(makeCacheMatrix(mtx1))
+#mtxInv
+#mtx1%*%mtxInv
+
